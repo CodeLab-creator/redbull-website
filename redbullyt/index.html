@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull | Flavor Collection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Track (400vh for 4 logical phases) -->
+    <div class="scroll-track"></div>
+
+    <!-- Fixed Stage -->
+    <div class="fixed-stage">
+
+        <nav>
+            <div class="logo">R E D &bull; B U L L</div>
+        </nav>
+
+        <!-- Dynamic Background Text -->
+        <div class="bg-text-container">
+            <h1 class="bg-text active" id="bg-s1">APRICOT</h1>
+            <h1 class="bg-text" id="bg-s2">PURPLE</h1>
+            <h1 class="bg-text" id="bg-s3">BLUE</h1>
+            <h1 class="bg-text" id="bg-s4">ARCTIC</h1>
+            <h1 class="bg-text" id="bg-s5">VANILLA</h1>
+            <h1 class="bg-text" id="bg-final">COLLECTION</h1>
+        </div>
+
+        <!-- Droplets Layer -->
+        <div class="droplets-layer" id="droplets-container"></div>
+
+        <!-- Cans Layer -->
+        <div class="cans-layer">
+            <img src="assets/redbull_apricot.png" alt="Apricot" class="can" id="can-apricot">
+            <img src="assets/redbull_purple.png" alt="Purple" class="can" id="can-purple">
+            <img src="assets/redbull_blue.png" alt="Blue" class="can" id="can-blue">
+            <img src="assets/redbull_winter_arctic.png" alt="Arctic Berry" class="can" id="can-arctic">
+            <img src="assets/redbull_winter_vanilla.png" alt="Iced Vanilla" class="can" id="can-vanilla">
+        </div>
+
+        <!-- Info Layer (Text) -->
+        <div class="info-layer">
+            <div class="info-box active" id="info-s1">
+                <h2>Apricot Edition</h2>
+                <p>Apricot & Strawberry.<br>Taste the Summer.</p>
+            </div>
+
+            <div class="info-box" id="info-s2">
+                <h2>Purple Edition</h2>
+                <p>Acai Berry.<br>Vitality for any moment.</p>
+            </div>
+
+            <div class="info-box" id="info-s3">
+                <h2>Blue Edition</h2>
+                <p>Blueberry.<br>Fresh and Fruity.</p>
+            </div>
+
+            <div class="info-box" id="info-s4">
+                <h2>Winter Edition</h2>
+                <p>Arctic Berry.<br>Cool and Crisp.</p>
+            </div>
+
+            <div class="info-box" id="info-s5">
+                <h2>Winter Edition</h2>
+                <p>Iced Vanilla Berry.<br>Smooth and Frosty.</p>
+            </div>
+        </div>
+
+        <div class="watermark">Created by CodeLab</div>
+    </div>
+
+    <!-- Removed scroll-ind to prevent overlap -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
